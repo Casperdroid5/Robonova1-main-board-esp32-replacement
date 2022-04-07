@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name Adafruit-PCA9685-rev-C-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit PCA9685 rev C-rescue.lib")(options "")(descr ""))
-  (lib (name piezo)(type Legacy)(uri ${KIPRJMOD}/piezo.lib)(options "")(descr ""))
-  (lib (name piezo2)(type Legacy)(uri ${KIPRJMOD}/piezo2.lib)(options "")(descr ""))
-)
