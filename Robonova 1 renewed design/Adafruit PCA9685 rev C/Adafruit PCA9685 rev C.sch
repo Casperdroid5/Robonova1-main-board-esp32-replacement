@@ -351,22 +351,6 @@ Wire Wire Line
 Text Label 900  1300 0    70   ~ 0
 A1
 Wire Wire Line
-	7100 2250 6700 2250
-Text Label 6700 2250 0    70   ~ 0
-A2
-Wire Wire Line
-	7100 2350 6700 2350
-Text Label 6700 2350 0    70   ~ 0
-A3
-Wire Wire Line
-	7100 2450 6700 2450
-Text Label 6700 2450 0    70   ~ 0
-A4
-Wire Wire Line
-	7100 2550 6700 2550
-Text Label 6700 2550 0    70   ~ 0
-A5
-Wire Wire Line
 	6300 1250 6300 1350
 Wire Wire Line
 	6300 1250 7100 1250
@@ -1435,28 +1419,6 @@ F 3 "" H 600 1000 50  0001 C CNN
 	1    600  1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x15_Male JR
-U 1 1 623963E7
-P 2200 4450
-F 0 "JR" H 2308 5331 50  0000 C CNN
-F 1 "Conn_01x15_Male" H 2308 5240 50  0000 C CNN
-F 2 "" H 2200 4450 50  0001 C CNN
-F 3 "~" H 2200 4450 50  0001 C CNN
-	1    2200 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x15_Male JL
-U 1 1 623A1462
-P 1150 4450
-F 0 "JL" H 1258 5331 50  0000 C CNN
-F 1 "Conn_01x15_Male" H 1258 5240 50  0000 C CNN
-F 2 "" H 1150 4450 50  0001 C CNN
-F 3 "~" H 1150 4450 50  0001 C CNN
-	1    1150 4450
-	1    0    0    -1  
-$EndComp
 Text Label 950  3750 0    50   ~ 0
 3.3V
 Text Label 950  3850 0    50   ~ 0
@@ -1517,52 +1479,41 @@ Text Label 2550 5050 0    50   ~ 0
 D36
 Text Label 2550 5150 0    50   ~ 0
 EN
-$Comp
-L Connector:Conn_01x15_Male JSensor
-U 1 1 623D16C9
-P 1800 3000
-F 0 "JSensor" V 1635 2978 50  0000 C CNN
-F 1 "Conn_01x15_Male" V 1726 2978 50  0000 C CNN
-F 2 "" H 1800 3000 50  0001 C CNN
-F 3 "~" H 1800 3000 50  0001 C CNN
-	1    1800 3000
-	0    1    1    0   
-$EndComp
-Text Label 1100 3200 3    50   ~ 0
+Text Label 1150 3250 3    50   ~ 0
 D26
-Text Label 1200 3200 3    50   ~ 0
+Text Label 1250 3250 3    50   ~ 0
 D25
-Text Label 1300 3200 3    50   ~ 0
+Text Label 1350 3250 3    50   ~ 0
 D23
-Text Label 1400 3200 3    50   ~ 0
+Text Label 1450 3250 3    50   ~ 0
 D19
-Text Label 1500 3200 3    50   ~ 0
+Text Label 1550 3250 3    50   ~ 0
 D18
-Text Label 1600 3200 3    50   ~ 0
+Text Label 1650 3250 3    50   ~ 0
 CS
-Text Label 1700 3200 3    50   ~ 0
+Text Label 1750 3250 3    50   ~ 0
 CLK
-Text Label 1800 3200 3    50   ~ 0
+Text Label 1850 3250 3    50   ~ 0
 MISO
-Text Label 1900 3200 3    50   ~ 0
+Text Label 1950 3250 3    50   ~ 0
 MOSI
-Text Label 2000 3200 3    50   ~ 0
+Text Label 2050 3250 3    50   ~ 0
 D2
-Text Label 2100 3200 3    50   ~ 0
+Text Label 2150 3250 3    50   ~ 0
 D4
-Text Label 2200 3200 3    50   ~ 0
+Text Label 2250 3250 3    50   ~ 0
 SDA1
-Text Label 2300 3200 3    50   ~ 0
+Text Label 2350 3250 3    50   ~ 0
 SCL1
-Text Label 2400 3200 3    50   ~ 0
+Text Label 2450 3250 3    50   ~ 0
 3.3V
-Text Label 2500 3200 3    50   ~ 0
+Text Label 2550 3250 3    50   ~ 0
 GND
 $Comp
-L Transistor_BJT:BC547 Q?
+L Transistor_BJT:BC547 Q2
 U 1 1 6249BC27
 P 4150 650
-F 0 "Q?" H 4341 696 50  0000 L CNN
+F 0 "Q2" H 4341 696 50  0000 L CNN
 F 1 "BC547" H 4341 605 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4350 575 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 4150 650 50  0001 L CNN
@@ -1570,10 +1521,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 4150 650 50  0001 L CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit-PCA9685-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_PCA9685_rev_C-eagle-import R?
+L Adafruit-PCA9685-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_PCA9685_rev_C-eagle-import R1
 U 1 1 624A02EE
 P 3750 450
-F 0 "R?" H 3750 550 50  0000 C CNN
+F 0 "R1" H 3750 550 50  0000 C CNN
 F 1 "1K" H 3750 450 40  0000 C CNB
 F 2 "Adafruit PCA9685 rev C:0805-NO" H 3750 450 50  0001 C CNN
 F 3 "" H 3750 450 50  0001 C CNN
@@ -1589,7 +1540,117 @@ GND
 Wire Wire Line
 	4250 850  4250 1050
 Wire Wire Line
-	4600 450  4750 450 
-Wire Wire Line
 	3750 650  3950 650 
+$Comp
+L Device:Speaker LS1
+U 1 1 62515CA3
+P 4350 250
+F 0 "LS1" H 4520 246 50  0000 L CNN
+F 1 "Speaker" H 4520 155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 4350 50  50  0001 C CNN
+F 3 "~" H 4340 200 50  0001 C CNN
+	1    4350 250 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 450  4750 450 
+Wire Wire Line
+	4350 450  4250 450 
+NoConn ~ 7100 2350
+NoConn ~ 7100 2450
+NoConn ~ 7100 2550
+NoConn ~ 7100 2250
+Wire Wire Line
+	2400 3750 2550 3750
+Wire Wire Line
+	2400 3850 2550 3850
+Wire Wire Line
+	2400 3950 2550 3950
+Wire Wire Line
+	2400 4050 2550 4050
+Wire Wire Line
+	2400 4150 2550 4150
+Wire Wire Line
+	2400 4250 2550 4250
+Wire Wire Line
+	2400 4350 2550 4350
+Wire Wire Line
+	2400 4450 2550 4450
+Wire Wire Line
+	2400 4550 2550 4550
+Wire Wire Line
+	2400 4650 2550 4650
+Wire Wire Line
+	2400 4750 2550 4750
+Wire Wire Line
+	2400 4850 2550 4850
+Wire Wire Line
+	2400 4950 2550 4950
+Wire Wire Line
+	2400 5050 2550 5050
+Wire Wire Line
+	2400 5150 2550 5150
+Wire Wire Line
+	950  3750 1350 3750
+Wire Wire Line
+	950  3850 1350 3850
+Wire Wire Line
+	950  3950 1350 3950
+Wire Wire Line
+	950  4050 1350 4050
+Wire Wire Line
+	950  4150 1350 4150
+Wire Wire Line
+	950  4250 1350 4250
+Wire Wire Line
+	950  4350 1350 4350
+Wire Wire Line
+	950  4450 1350 4450
+Wire Wire Line
+	950  4550 1350 4550
+Wire Wire Line
+	950  4650 1350 4650
+Wire Wire Line
+	950  4750 1350 4750
+Wire Wire Line
+	950  4850 1350 4850
+Wire Wire Line
+	950  4950 1350 4950
+Wire Wire Line
+	950  5050 1350 5050
+Wire Wire Line
+	950  5150 1350 5150
+$Comp
+L Connector:Conn_01x15_Male JSensor1
+U 1 1 623D16C9
+P 1850 3050
+F 0 "JSensor1" V 1685 3028 50  0000 C CNN
+F 1 "Conn_01x15_Male" V 1776 3028 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 1850 3050 50  0001 C CNN
+F 3 "~" H 1850 3050 50  0001 C CNN
+	1    1850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x15_Male JR1
+U 1 1 623963E7
+P 2200 4450
+F 0 "JR1" H 2308 5331 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 2308 5240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 2200 4450 50  0001 C CNN
+F 3 "~" H 2200 4450 50  0001 C CNN
+	1    2200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x15_Male JL1
+U 1 1 623A1462
+P 1150 4450
+F 0 "JL1" H 1258 5331 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 1258 5240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 1150 4450 50  0001 C CNN
+F 3 "~" H 1150 4450 50  0001 C CNN
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
