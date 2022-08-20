@@ -320,6 +320,14 @@
     [
       "123f3c3d-b278-4884-a5a4-bcb2a74a2297",
       ""
+    ],
+    [
+      "4c03886d-cd02-487b-89dc-e8d39413a857",
+      "IMU"
+    ],
+    [
+      "af8ab5db-4d6d-4c51-bd98-a202e6252f04",
+      "16-servo-controller"
     ]
   ],
   "text_variables": {}
